@@ -45,7 +45,6 @@ public class sign_up extends javax.swing.JFrame {
         jLabel13 = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
 
-        jLabel14.setIcon(new javax.swing.ImageIcon("C:\\Users\\Testing\\Desktop\\sign-up.png")); // NOI18N
         jLabel14.setText("jLabel14");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -58,7 +57,7 @@ public class sign_up extends javax.swing.JFrame {
         jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setText("Username");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(113, 197, -1, -1));
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(199, 222, 251, 18));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(228, 222, 251, 18));
 
         jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setText("Password");
@@ -73,17 +72,17 @@ public class sign_up extends javax.swing.JFrame {
                 fnameFocusLost(evt);
             }
         });
-        getContentPane().add(fname, new org.netbeans.lib.awtextra.AbsoluteConstraints(199, 78, 183, -1));
+        getContentPane().add(fname, new org.netbeans.lib.awtextra.AbsoluteConstraints(228, 78, 183, -1));
 
         uname.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusLost(java.awt.event.FocusEvent evt) {
                 unameFocusLost(evt);
             }
         });
-        getContentPane().add(uname, new org.netbeans.lib.awtextra.AbsoluteConstraints(199, 194, 183, -1));
+        getContentPane().add(uname, new org.netbeans.lib.awtextra.AbsoluteConstraints(228, 194, 183, -1));
 
         jLabel6.setForeground(new java.awt.Color(204, 204, 255));
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(199, 280, 251, 18));
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(228, 280, 251, 18));
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(228, 338, 166, 18));
 
         jButton1.setText("Sign Up");
@@ -94,10 +93,10 @@ public class sign_up extends javax.swing.JFrame {
         });
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 350, -1, -1));
 
-        jLabel8.setFont(new java.awt.Font("High Tower Text", 0, 14)); // NOI18N
+        jLabel8.setFont(new java.awt.Font("High Tower Text", 0, 18)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(0, 0, 0));
         jLabel8.setText("CREATE YOUR ACCOUNT");
-        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(199, 30, 183, -1));
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 30, 240, -1));
 
         jLabel9.setForeground(new java.awt.Color(0, 0, 0));
         jLabel9.setText("Already have an account?");
@@ -123,14 +122,14 @@ public class sign_up extends javax.swing.JFrame {
                 pswdFocusLost(evt);
             }
         });
-        getContentPane().add(pswd, new org.netbeans.lib.awtextra.AbsoluteConstraints(199, 252, 183, -1));
+        getContentPane().add(pswd, new org.netbeans.lib.awtextra.AbsoluteConstraints(228, 252, 183, -1));
 
         cfpswd.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusLost(java.awt.event.FocusEvent evt) {
                 cfpswdFocusLost(evt);
             }
         });
-        getContentPane().add(cfpswd, new org.netbeans.lib.awtextra.AbsoluteConstraints(228, 310, 166, -1));
+        getContentPane().add(cfpswd, new org.netbeans.lib.awtextra.AbsoluteConstraints(228, 310, 183, -1));
 
         jLabel11.setForeground(new java.awt.Color(0, 0, 0));
         jLabel11.setText("Last Name");
@@ -141,11 +140,11 @@ public class sign_up extends javax.swing.JFrame {
                 lnameFocusLost(evt);
             }
         });
-        getContentPane().add(lname, new org.netbeans.lib.awtextra.AbsoluteConstraints(199, 136, 183, -1));
+        getContentPane().add(lname, new org.netbeans.lib.awtextra.AbsoluteConstraints(228, 136, 183, -1));
 
         jLabel12.setPreferredSize(new java.awt.Dimension(5, 16));
-        getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(199, 106, 166, 18));
-        getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(199, 164, 183, 18));
+        getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(228, 106, 166, 18));
+        getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(228, 164, 183, 18));
 
         jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/sign up.png"))); // NOI18N
         jLabel15.setText("jLabel15");
