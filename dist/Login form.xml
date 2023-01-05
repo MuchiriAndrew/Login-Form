@@ -2,8 +2,8 @@
 <launch4jConfig>
   <dontWrapJar>false</dontWrapJar>
   <headerType>gui</headerType>
-  <jar>C:\Users\Testing\Documents\NetBeansProjects\Personal Project\dist\Personal_Project.jar</jar>
-  <outfile>C:\Users\Testing\Documents\NetBeansProjects\Personal Project\dist\login app.exe</outfile>
+  <jar>C:\Users\Testing\Documents\NetBeansProjects\LoginApp\dist\LoginApp.jar</jar>
+  <outfile>C:\Users\Testing\Documents\NetBeansProjects\LoginApp\dist\login form.exe</outfile>
   <errTitle></errTitle>
   <cmdLine></cmdLine>
   <chdir>.</chdir>
